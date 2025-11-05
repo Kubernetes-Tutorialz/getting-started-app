@@ -12,7 +12,6 @@ fiap-devsecops-compose-lab
  ├── Dockerfile
  ├── app/
  │    └── main.py (ou app.js)
- ├── .github/workflows/
- │    └── pipeline.yml
+ ├
  └── README.md
  ```
