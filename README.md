@@ -1,5 +1,18 @@
-# Getting started teste
+## 🧭 Objetivo do hands-on
 
-This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
+Levar os alunos a entender e aplicar segurança em um pipeline simples, usando um app real em containers.
 
-The application is based on the application from the getting started tutorial at https://github.com/docker/getting-started
+## ⚙️ 1️⃣ Estrutura base
+
+Você vai precisar de um repositório com:
+
+```bash
+fiap-devsecops-compose-lab
+ ├── docker-compose.yml
+ ├── Dockerfile
+ ├── app/
+ │    └── main.py (ou app.js)
+ ├── .github/workflows/
+ │    └── pipeline.yml
+ └── README.md
+ ```
